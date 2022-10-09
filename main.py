@@ -26,7 +26,7 @@ pyqwenan=get_pyqwenan()
 ensentence=get_ensentence()
 emotion=get_emoticon()
 
-tmp="\n🌈【今日份天气】{} \n🏙 城市： ".format(emotion) + parent + city + \
+tmp="\n🌈早上好~【今日份天气】{} \n🏙 城市： ".format(emotion) + parent + city + \
        "\t🗓︎ 日期： " + date + ' ' + week + "\n" + weather_ic + "天气: " + weather_type + "\t🌡 温度: " + wendu_high + " / " + \
       wendu_low + "\t💕 湿度: " + shidu + "\n💕 PM25: " + pm25 + "\t💕 PM10: " + pm10 + "\t💕 空气质量: " + quality + \
        "\n🌪︎ 风力风向: " + fx + fl + "\n😷 感冒指数: " + ganmao + '\n'+chp+ \
