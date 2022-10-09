@@ -14,7 +14,8 @@ from content import get_chp,get_gjmj,get_ensentence,get_pyqwenan,get_emoticon
 
 app_id = 'wx0daeaf9a80a86fee'
 app_secret = '87b121ed81da303d546b320e93b132a3'
-user_id = 'oF-WK5ro4x_4iOAW9WSijpvQCYq0'
+user_id1 = 'oF-WK5ro4x_4iOAW9WSijpvQCYq0'
+user_id2 = 'oF-WK5irzXsJamUM83AGUgwWv3r0'
 template_id ='q-gx3vvHs3IZmzlEgJBxSxpxbIgv46CD2Ar5lbecZfs'
 
 parent ,city,date,week,weather_ic,weather_type,wendu_high,wendu_low,shidu,\
@@ -37,5 +38,6 @@ d ={'data':{'value':tmp}}
 
 client = WeChatClient (app_id, app_secret)
 wm = WeChatMessage (client)
-res = wm.send_template (user_id, template_id, d)
+res = wm.send_template (user_id1, template_id, d)
+res = wm.send_template (user_id2, template_id, d)
 print (d)
