@@ -9,7 +9,7 @@
 '''
 from wechatpy import WeChatClient
 from wechatpy.client.api import WeChatMessage, WeChatTemplate
-from daily.weather import get_weather_new
+from weather import get_weather_new
 from content import get_chp,get_gjmj,get_ensentence,get_pyqwenan,get_emoticon
 
 app_id = 'wx0daeaf9a80a86fee'
